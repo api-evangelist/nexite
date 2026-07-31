@@ -1,7 +1,26 @@
 aid: nexite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexite.png
 name: Nexite
-description: Nexite is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nexite is a retail technology company (website nexite.io) surfaced through the
+  API Evangelist network as a portfolio company of Battery Ventures. It operates
+  in the connected-retail / IoT-for-physical-retail space. This profile was added
+  as a stub lead and has been through one local enrichment pass: the public web
+  presence is live but fully gated behind a bot / CAPTCHA challenge, and no public
+  developer portal, API documentation, OpenAPI specification, SDKs, or discovery
+  (/.well-known/) surface could be reached. No public API surface is catalogued at
+  this time; the entry is retained as a company record pending a discoverable API.
 url: https://raw.githubusercontent.com/api-evangelist/nexite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- Retail Technology
+- IoT
+- Connected Retail
+- Portfolio Company
 apis: []
+common:
+- type: DomainSecurity
+  url: security/nexite-domain-security.yml
+- type: Website
+  url: https://nexite.io
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
