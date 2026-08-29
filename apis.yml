@@ -33,6 +33,9 @@ description: >-
   (/.well-known/) surface could be reached. No public API surface is catalogued at
   this time; the entry is retained as a company record pending a discoverable API.
 url: https://raw.githubusercontent.com/api-evangelist/nexite/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
+x-api-posture-note: "No public API surface is catalogued at this time; the entry is retained as a company record pending a discoverable API."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
